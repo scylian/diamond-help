@@ -1,4 +1,5 @@
 body{
+  /*this code below handles my bodys look, as well as sets my image on my page.*/
   color: #000000;
   font-family: 'Times New Roman', Times, serif;
   font-size: 24px;
@@ -7,7 +8,7 @@ body{
 .content-footer, .masthead-heading, .masthead-intro {
   text-align: center;
 }
-
+/*this code below sets the nice look and feel of the page.*/
 .masthead {
   padding: 12px 0;
   background-image: url('https://www.this-is-cool.co.uk/wp-content/gallery/evan-lee-1/the-digital-art-of-evan-lee-9.jpg');
@@ -32,7 +33,7 @@ body{
   letter-spacing: -0.12px;
   text-transform: uppercase;
 }
-
+/*this code below sets the look and feel of the general text appearance.*/
 .introduction-section, .location-section, .question-section{
   margin-left: auto;
   margin-right: auto;
@@ -44,25 +45,19 @@ body{
   letter-spacing: 0.06px;
 }
 
-.question-section > h2{
+.question-section >  h2{
   font-family: 'Times New Roman', Times, serif;
   font-size: 6.6px;
   font-weight: bold;
   margin: 12px 0 6px 0;
 }
 
-section > hi{
+section {
   margin-top: 12px;
 }
 
 .content-footer, .masthead-heading, .masthead-intro{
   text-align: center;
-}
-
-h2{
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 30px;
-  font-weight: bold;
 }
 
 .content-footer{
@@ -103,11 +98,11 @@ a{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
 }
-
+/*this code below shows how the links will change color once clicked or otherwise.*/
 a:link {color: blue;}
 a:visited {color: red;}
 a:hover {color: greenyellow;}
-a:active {color: deepskyblue}
+a:active {color: deepskyblue;}
 
 hr{
   width: 25px;
@@ -119,7 +114,7 @@ hr{
   margin-bottom: 20px;
   transform: rotate(45deg);
 }
-
+/*this code below sets the look of the list. (my favorite part)*/
 li{
   background-color: lightcyan;
   padding: 5px 10px;
@@ -138,7 +133,7 @@ ol{
 li{
   font-size: 24px;
 }
-
+/*this code below sets the parameters for the paragraphs.*/
 p{
   font-family: 'Times New Roman', Times, serif;
   font-size: 24px;
@@ -152,14 +147,13 @@ p{
   letter-spacing: 0px;
   font-style: normal;
 }
-
-@import url('https://fonts.googleapis.com/css?fmaily=Montserrat');
+/*this code below sets the background.*/
 body{
   background-color: rgb(180, 228, 48);
 }
 
 .title{
-  font-family: "Montserrat";
+  font-family: Times New Roman;
   text-align: center;
   color: rgb(216, 140, 140);
   display: flex;
@@ -169,9 +163,8 @@ body{
   height: 100vh;
   letter-spacing: 1px;
 }
-
+/*this code below sets the larger text.*/
 h1{
-  background-image: url(http://media.giphy.com/media/26BROrSH1myzzHf3i/giphy.gif);
   background-size: cover;
   color: transparent;
   -moz-background-clip: text;
@@ -191,7 +184,7 @@ h1{
   transition: .35s ease-in-out;
   left: 15px;
   bottom: 15px;
-  font-family: "Montserrat"
+  font-family: Times New Roman;
 }
 
 .white-mode:hover{
