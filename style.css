@@ -118,7 +118,7 @@ hr{
 /*this code below sets the look of the list. (my favorite part)*/
 li{
   background-color: lightcyan;
-  padding: 5px 10px;
+  padding: 5px 8px;
 }
 
 .list-inside li {
