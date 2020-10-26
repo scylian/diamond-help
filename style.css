@@ -1,0 +1,205 @@
+body{
+  color: #000000;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24px;
+}
+
+.content-footer, .masthead-heading, .masthead-intro {
+  text-align: center;
+}
+
+.masthead {
+  padding: 12px 0;
+  background-image: url('https://www.this-is-cool.co.uk/wp-content/gallery/evan-lee-1/the-digital-art-of-evan-lee-9.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top: solid 12px #ffcf33;
+}
+
+.masthead-intro{
+  margin-bottom: .6px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 36px;
+  color: #ffcf33;
+}
+
+.masthead-heading{
+  color: #f1c863;
+  margin-top: -0.12px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 32px;
+  letter-spacing: -0.12px;
+  text-transform: uppercase;
+}
+
+.introduction-section, .location-section, .question-section{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12px;
+}
+
+.introduction-section > p, .location-section > p, .question-section, .content-footer > p{
+  font-weight: 300;
+  letter-spacing: 0.06px;
+}
+
+.question-section > h2{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 6.6px;
+  font-weight: bold;
+  margin: 12px 0 6px 0;
+}
+
+section > hi{
+  margin-top: 12px;
+}
+
+.content-footer, .masthead-heading, .masthead-intro{
+  text-align: center;
+}
+
+h2{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.content-footer{
+  margin: 50px;
+  padding: 20px;
+  text-align: center;
+  background-color: lightpink;
+  text-decoration: none;
+}
+
+.social > li{
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.content-footer > p{
+  color: #f7ede1;
+}
+
+a{
+  font-weight: bold;
+  color: #000000;
+}
+
+@media only screen and (max-width: 500px) {
+  .masthead{
+    padding: 48px;
+  }
+  .masthead-heading{
+    font-size: 48px;
+  }
+  .content-footer{
+    padding: 24px;
+  }
+}
+
+a{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+a:link {color: blue;}
+a:visited {color: red;}
+a:hover {color: greenyellow;}
+a:active {color: deepskyblue}
+
+hr{
+  width: 25px;
+  height: 25px;
+  border: none;
+  background: #000;
+  color: #000;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  transform: rotate(45deg);
+}
+
+li{
+  background-color: lightcyan;
+  padding: 5px 10px;
+}
+
+.list-inside li {
+  list-style-position: inside;
+}
+
+ul{
+  color: darkred;
+}
+ol{
+  color: blueviolet;
+}
+li{
+  font-size: 24px;
+}
+
+p{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24px;
+  color: #000000;
+
+  font-weight: normal;
+  text-align: left;
+  text-decoration: none;
+  text-transform: none;
+  line-height: 24px;
+  letter-spacing: 0px;
+  font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css?fmaily=Montserrat');
+body{
+  background-color: rgb(180, 228, 48);
+}
+
+.title{
+  font-family: "Montserrat";
+  text-align: center;
+  color: rgb(216, 140, 140);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  letter-spacing: 1px;
+}
+
+h1{
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+  font-size: 120px;
+  line-height: .75;
+  margin: 10px 0;
+}
+
+.white-mode{
+  text-decoration: none;
+  padding: 7px 10px;
+  background-color: #122;
+  border-radius: 3px;
+  color: #fff;
+  transition: .35s ease-in-out;
+  left: 15px;
+  bottom: 15px;
+  font-family: "Montserrat"
+}
+
+.white-mode:hover{
+  background-color: #fff;
+  color: #122;
+}
+
+.wrapper{
+  width: 300px;
+
+  margin: auto;
+}
