@@ -149,13 +149,13 @@ p{
 }
 /*this code below sets the background.*/
 body{
-  background-color: rgb(180, 228, 48);
+  background-color: goldenrod;
 }
 
 .title{
   font-family: Times New Roman;
   text-align: center;
-  color: rgb(216, 140, 140);
+  color: darkorange;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -170,7 +170,7 @@ h1{
   -moz-background-clip: text;
   -webkit-background-clip: text;
   text-transform: uppercase;
-  font-size: 50px;
+  font-size: 25px;
   line-height: .75;
   margin: 10px 0;
 }
