@@ -171,6 +171,7 @@ body{
 }
 
 h1{
+  background-image: url(http://media.giphy.com/media/26BROrSH1myzzHf3i/giphy.gif);
   background-size: cover;
   color: transparent;
   -moz-background-clip: text;
