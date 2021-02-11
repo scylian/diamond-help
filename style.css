@@ -1,407 +1,376 @@
-body{
-  /*this code below handles my bodys look, as well as sets my image on my page.*/
-  color: #000000;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 24px;
-  text-align: center;
-}
-
-.content-footer, .masthead-heading, .masthead-intro {
-  text-align: center;
-}
-/*this code below sets the nice look and feel of the page.*/
-.masthead {
-  padding: 12px 0;
-  background-image: url('https://www.this-is-cool.co.uk/wp-content/gallery/evan-lee-1/the-digital-art-of-evan-lee-9.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  border-top: solid 12px #ffcf33;
-}
-
-.masthead-intro{
-  margin-bottom: .6px;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 36px;
-  color: #ffcf33;
-}
-
-.masthead-heading{
-  color: #f1c863;
-  margin-top: -0.12px;
-  font-family: 'Times New Roman', Times, serif;
-  font-weight: bold;
-  font-size: 32px;
-  letter-spacing: -0.12px;
-  text-transform: uppercase;
-}
-/*this code below sets the look and feel of the general text appearance.*/
-.introduction-section, .location-section, .question-section{
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 12px;
-}
-
-.introduction-section > p, .location-section > p, .question-section, .content-footer > p{
-  font-weight: 300;
-  letter-spacing: 0.06px;
-}
-
-.question-section >  h2{
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 6.6px;
-  font-weight: bold;
-  margin: 12px 0 6px 0;
-}
-
-section {
-  margin-top: 12px;
-}
-
-.content-footer, .masthead-heading, .masthead-intro{
-  text-align: center;
-}
-
-.content-footer{
-  margin: 50px;
-  padding: 20px;
-  text-align: center;
-  background-color: lightpink;
-  text-decoration: none;
-}
-
-.social > li{
-  display: inline-block;
-  margin: 0 5px;
-}
-
-.content-footer > p{
-  color: #f7ede1;
-}
-
-a{
-  font-weight: bold;
-  color: #000000;
-}
-
-@media only screen and (max-width: 500px) {
-  .masthead{
-    padding: 48px;
-  }
-  .masthead-heading{
-    font-size: 48px;
-  }
-  .content-footer{
-    padding: 24px;
-  }
-}
-
-a{
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
-}
-/*this code below shows how the links will change color once clicked or otherwise.*/
-a:link {color: blue;}
-a:visited {color: red;}
-a:hover {color: greenyellow;}
-a:active {color: deepskyblue;}
-
-hr{
-  width: 25px;
-  height: 25px;
-  border: none;
-  background: #000;
-  color: #000;
-  margin-top: 30px;
-  margin-bottom: 20px;
-  transform: rotate(45deg);
-}
-/*this code below sets the look of the list. (my favorite part)*/
-li{
-  background-color: lightcyan;
-  padding: 5px 8px;
-}
-
-.list-inside li {
-  list-style-position: inside;
-}
-
-ul{
-  color: darkred;
-}
-ol{
-  color: blueviolet;
-}
-li{
-  font-size: 24px;
-}
-/*this code below sets the parameters for the paragraphs.*/
-p{
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 24px;
-  color: #000000;
-
-  font-weight: normal;
-  text-align: left;
-  text-decoration: none;
-  text-transform: none;
-  line-height: 24px;
-  letter-spacing: 0px;
-  font-style: normal;
-  text-align: center;
-}
-/*this code below sets the background.*/
-body{
-  background-color: goldenrod;
-}
-
-.title{
-  font-family: Times New Roman;
-  text-align: center;
-  color: darkorange;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  letter-spacing: 1px;
-}
-/*this code below sets the larger text.*/
-h1{
-  background-size: cover;
-  color: transparent;
-  -moz-background-clip: text;
-  -webkit-background-clip: text;
-  text-transform: uppercase;
-  font-size: 35px;
-  line-height: .75;
-  margin: 10px 0;
-}
-
-.white-mode{
-  text-decoration: none;
-  padding: 7px 10px;
-  background-color: #122;
-  border-radius: 3px;
-  color: #fff;
-  transition: .35s ease-in-out;
-  left: 15px;
-  bottom: 15px;
-  font-family: Times New Roman;
-}
-
-.white-mode:hover{
-  background-color: #fff;
-  color: #122;
-}
-
-.wrapper{
-  width: 300px;
-
-  margin: auto;
-}
-
-/* -------  General Styles ------- */
-
+/* style for entire body of content */
 body {
-  margin: 0;
-  font-family: Helvetica, Arial, sans-serif;
-  background-image: url(images/backgrounds/subtle_white_mini_waves.jpg);
-}
-
-header {
-  background-color: #403933;
-  background-image: url(images/backgrounds/subtle_brown_mini_waves.jpg);
-  margin-bottom: 40px;
-}
-
-.logo {
-  font-family: 'Nanum Pen Script', cursive;
-  font-size: 72px;
-  color: #c5c0b8;
-  text-align: center;
-  letter-spacing: -3;
-  margin: 0;
-  padding: 20px 0 0 0;
-}
-
-
-/* ---  Navigation --- */
-
-header nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-header nav ul {
-  display: flex;
-  flex-direction: row;
-  padding-bottom: 0;
-}
-
-header nav ul li {
-  list-style-type: none;
-}
-
-header nav ul li a {
-  color: #fff;
-  text-decoration: none;
-  padding: 0 20px 0 0;
-  font-family: 'Montserrat Alternates', sans-serif;
-}
-
-header nav ul li a:hover {
-  color: #bdbdbd;
-}
-
-@media all and (min-width: 700px) {
-  header {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .logo {
-    margin: 14px 0 14px 20px;
-    padding-top: 0;
-    font-size: 42px;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(221, 199, 139);
+    width: 100%;
   }
   
-  header nav {
-    margin-top: 14px;
+  /* header section */
+  header { 
+      display:flex;
+      flex-direction:row;
+      justify-content: space-between;
+    width : 100%; 
+    height: 100px;
+    color: rgb(238, 238, 171);
+    background-color: rgb(85, 97, 67);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 35px;
+    padding-bottom: 5px;
+    
   }
-}
-
-/* ---  Primary Groups --- */
-
-main {
-  padding: 20px 0;
-}
-
-section {
-  margin-bottom: 100px;
-}
-
-section.dark-background {   
-  background-color: #c5c0b8;
-  padding-top: 80px;
-  padding-bottom: 80px;
-  margin: 80px 0;
-}
-
-footer {
-  background-color: #403933;
-  background-image: url(images/backgrounds/subtle_brown_mini_waves.jpg);
-  margin-top: 40px;
-  margin-bottom: 0;
-}
-
-/* ---  Typography --- */
-
-h1 {
-  font-size: 28px;
-  font-family: 'Montserrat Alternates', sans-serif;
-  font-weight: 400;
-  color: #403933;
-}
-
-h2 {
-  font-size: 26px;
-  font-family: 'Montserrat Alternates', sans-serif;
-  font-weight: 400;
-  margin: 0 10px;
-}
-
-h3 {
-  font-size: 18px;
-  font-family: 'Montserrat Alternates', sans-serif;
-  font-weight: 500;
-}
-
-p {
- font-family: 'Montserrat', sans-serif;
- line-height: 1.5em;
- margin-bottom: 0;
-}
-
-main a {
-	font-weight: 700;
-	text-decoration: none;	
-}
-
-main  a:link { color: #38786a; }
-main  a:visited { color: #38786a; }
-main  a:hover { color: #403933; }
-a:active { color: #403933; }
-
-
-a:hover {
-	text-decoration: underline;	
-}
-
-footer p {
-  color: #fff;
-  text-align: center;
-  padding: 20px;
-}
-
-
-main img {
-  width: 100%;
-}
-
-img.image-enhanced {
-  border-radius: 8px;
-}
-
-.group {
-  display: flex;
-  flex-direction: column;
-}
-
-.item {
-  flex: 1;
-  margin: 10px;
-}
-
-.item-double {
-  flex: 2;
-}
-
-
-
-/* ---  (Desktop) Groups & Items --- */
-
-@media all and (min-width: 800px) {
-  section {
-    padding: 0 10%;
+  .my-title {
+      
+      display:inline-block;
+      text-align: center;
+      margin:0;
   }
-  .group {
-    flex-direction: row;
+  header .my-title h1 {
+      padding-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    margin:0;
   }
-}
-
-
-
-/* Contact Form Design */
-
-form {
-  padding-right: 8px;
-  /* Fixed small sizing issue on the right */
-}
-
-form label {
-  display: block;
-}
-
-form input, 
-form textarea {
-  width: 100%;
-  margin-bottom: 20px;
-}
-
-form textarea {
-  height: 160px;
-}
-
-
-
+  header .my-title h3{
+      margin:0;
+  }
+  header nav{
+      margin-right: 10px;
+  }
+  
+  header nav ul{
+      
+      display:flex;
+      justify-content: space-between;
+      padding:0;
+      list-style: none;   
+  }
+  header nav ul li{
+      margin-right: 20px;
+  }
+  header nav ul li a:last-child{
+      margin-right: 0;
+  }
+  header nav ul li a{
+      text-decoration: none;
+      color: rgb(238, 238, 171);    
+      font-size:25px;
+  }
+  header nav ul li a:hover{
+      text-decoration: underline;
+      color: rgb(255, 255, 255);    
+      font-size:30px;
+  }
+  /* .......................... */
+  /* main>>>article>>>paragraph-wrapper,paragraph-wrapper, contacts-section,*/
+  main {
+    color: rgb(85, 97, 67);
+    background-color: rgb(238, 238, 171);
+    width: 100%;
+    margin: 0;
+  
+  }
+  .content-header{
+      width:100%;
+      text-align: center;
+      font-size:25px;
+  }
+  .content-section{
+      display:flex;
+      flex-direction: row;
+      justify-content: center;
+      height:auto;
+      width:100%;
+      
+  }
+  #about-me, #contacts{
+      background-color: rgb(122, 122, 37);
+      color: rgb(240, 240, 202);
+  }
+  #contacts{
+      margin:0;
+      padding-top: 10px;
+      font-size: 18px;
+      font-weight:100;
+  }
+  
+  .paragraph-wrapper {
+    flex:2;  
+    font-size: 18px;
+    padding: 15px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  .paragraph-wrapper h2 {
+    text-align: center;
+  }
+  form input, textarea{
+    width: 100%;
+  }
+  
+  .holder{
+    flex:2;
+    margin:10px;
+    padding:20px;
+  }
+  .holder>ol{
+    list-style-type:none;
+  }
+  .holder>ol>li{
+    margin: 5px;
+  }
+  .holder>ol>li>a{
+    text-decoration:none;
+  }
+  #form{
+    flex:1;
+    padding-top: 30px;
+  }
+  footer {
+    background-color: black;
+  }
+  
+  .img-box {
+    flex:1;
+    padding: 15px 15px;
+    position: relative;
+  }
+​
+  .img-box-2{
+      flex:1;
+      padding: 15px;
+      position:relative;
+  }
+  .img-box-3 {
+      flex:1;
+      padding: 15px 15px;
+      position: relative;
+  }
+  img {
+    max-width: 100%;
+  }
+  footer {
+    padding-top: 20px;
+    height: 100px;
+    color: white;
+    text-align: center;
+  }
+  /* map at the end for my city */
+  #map {
+    height: 400px;
+    width: 100%;
+  }
+  /* for email  */
+  #email-link {
+    text-decoration: none;
+  }
+  /* hover contact section*/
+  #email-link:hover {
+    color: greenyellow;
+  }
+  @media(max-width: 1480px){
+      .paragraph-wrapper {
+          /* width:75%;
+            margin:10px 10%; */
+          flex:1.5;  
+          font-size: 18px;
+          padding: 15px;
+          font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+            "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      }
+      .img-box {
+        flex:1.5;
+        padding: 15px 15px;
+        /* position: relative; */
+        
+      }  
+  }
+  @media (max-width: 1350px){
+      body {
+          margin: 0;
+          padding: 0;
+          width: 100%;
+      } 
+      header{
+          height:150px;
+          padding-top:50px;
+      }
+      .my-title{
+          padding-top:10px;
+      }
+      header nav{
+          padding-top:10px;
+      }
+      main {
+          color: rgb(85, 97, 67);
+          background-color: rgb(238, 238, 171);
+          width: 100%;
+          margin: 0;
+      }
+  }
+  @media (max-width: 1100px){
+      body {
+          margin: 0;
+          padding: 0;
+          width: 100%;
+      } 
+      header { 
+          display:flex;
+          flex-direction:column;
+          justify-content: center;
+        width : 100%; 
+        height: 200px;
+        color: rgb(238, 238, 171);
+        background-color: rgb(85, 97, 67);
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 35px;
+        padding-bottom: 5px;
+        
+      }
+      .my-title {
+          display:inline-block;
+          text-align: center;
+          height: 85px;
+          margin:0;
+          padding-bottom: 10px;
+      }
+      header .my-title h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 55px;
+        font-weight: 500;
+        margin:0;
+      }
+      header .my-title h3{
+          margin:0;
+      }
+      header nav{
+          margin-top:10px;
+      }
+      
+      header nav ul{
+          
+          display:flex;
+          justify-content: center;
+          padding:0;
+          list-style: none;   
+      }
+      header nav ul li{
+          margin-right: 20px;
+      }
+      header nav ul li a:last-child{
+          margin-right: 0;
+      }
+      header nav ul li a{
+          text-decoration: none;
+          color: rgb(247, 247, 242);    
+          font-size:25px;
+      }
+      header nav ul li a:hover{
+          text-decoration: underline;
+          color: rgb(255, 255, 255);    
+          font-size:30px;
+      }
+      main {
+          color: rgb(85, 97, 67);
+          background-color: rgb(238, 238, 171);
+          width: 100%;
+          margin: 0;
+      }
+      .content-section{
+          display:flex;
+          flex-direction: row;
+          
+      }    
+  }
+  @media (max-width:1050px){
+    .img-box{
+      padding-top: 45px;
+    }
+    .img-box img{
+      min-height: 425px;
+  
+  }
+  @media (max-width:905px){
+    .img-box{
+      padding-top: 70px;
+    }
+    .flex-container{
+      justify-content: space-evenly;
+      display:flex;
+      flex-direction: column;
+    }  
+  }
+  @media (max-width:850px){
+    .content-section{
+      display:flex;
+      flex-direction: column;
+      
+  }   
+  }
+  @media (max-width: 500px) {
+    body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+    }
+    
+  
+    main {
+      color: rgb(85, 97, 67);
+      background-color: rgb(238, 238, 171);
+      width: 100%;
+      margin: 0;
+    }
+    header{
+      height: 250px;
+    }
+    header nav {
+      display: flex;
+      justify-content: center;
+    }
+    header nav ul {
+      display: flex;
+      flex-direction: row;
+      padding: 0;
+      list-style: none;
+    }
+    header nav ul li {
+      list-style: none;
+      margin-right: 10px;
+    }
+    header nav ul li:last-child {
+      list-style: none;
+      margin-right: 0;
+    }
+    header nav ul li a {
+      color: #fff;
+      text-decoration: none;
+    }
+    header nav ul li a:hover {
+      color: rgb(151, 150, 150);
+      text-decoration: underline;
+    }
+  
+    .img-box {
+      height: 80%;
+      padding: 15px 15px;
+      position: relative;
+    }
+  }
+  @media (max-width: 480px){
+      header{
+          height: 350px;
+      }
+      .my-title{
+          height: 150px;
+          padding: 15px;
+      }
+      header nav{
+          margin-top: 15px;
+      }    
+  }
+  }
